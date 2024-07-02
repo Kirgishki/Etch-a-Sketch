@@ -5,8 +5,8 @@ body.appendChild(container);
 
 for (let i = 1; i <= 256; i++) {
     const divSquare = document.createElement('div');
-    divSquare.style.width = "10px";
-    divSquare.style.height = "10px";
+    divSquare.style.width = "20px";
+    divSquare.style.height = "20px";
 
     container.appendChild(divSquare);
 }
