@@ -1,6 +1,11 @@
-const container = document.createElement("div");
 const body = document.querySelector("body");
+const container = document.createElement("div");
+const btnEnterValue = document.createElement("button");
+
 container.classList.add("container");
+btnEnterValue.innerText = "Change Number of Squares";
+
+body.appendChild(btnEnterValue);
 body.appendChild(container);
 
 for (let i = 1; i <= 256; i++) {
